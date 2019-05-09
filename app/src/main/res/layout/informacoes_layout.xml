@@ -4,19 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".InformacoesActivity">
 
-    <android.support.v7.widget.Toolbar
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:id="@+id/idToolBar"
-        >
+        android:layout_height="wrap_content"
+        android:text="Informações"
+        android:textSize="60dp"
+        android:onClick="txtConfig"
+        android:layout_gravity="center"
+        android:gravity="center"
 
-
-    </android.support.v7.widget.Toolbar>
-
-
-
+        />
 
 </LinearLayout>
